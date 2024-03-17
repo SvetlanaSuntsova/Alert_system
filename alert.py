@@ -77,7 +77,7 @@ def anomaly_report():
     @task()
     def run_feed():
         chat_id = 303597246
-        bot = telegram.Bot(token='1987162789:AAFgHNqBv-v5VXPQcS0btoxtXECUvw8akMs')
+        bot = telegram.Bot(token='***')
         
         metrics_list = ['active_users_feed', 'views', 'likes', 'CTR']
         
